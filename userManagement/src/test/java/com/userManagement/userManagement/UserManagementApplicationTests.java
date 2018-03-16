@@ -1,4 +1,4 @@
-package com.userManagement.userManagement;
+/*package com.userManagement.userManagement;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -14,3 +14,4 @@ public class UserManagementApplicationTests {
 	}
 
 }
+*/
