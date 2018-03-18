@@ -6,6 +6,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 
 import {UsermanagementModule} from './usermanagement/usermanagement.module'
+import { HttpModule } from '@angular/http';
 
 
 @NgModule({
@@ -15,7 +16,8 @@ import {UsermanagementModule} from './usermanagement/usermanagement.module'
   imports: [
     BrowserModule,
     AppRoutingModule,
-    UsermanagementModule
+    UsermanagementModule,
+    HttpModule
   ],
   providers: [],
   bootstrap: [AppComponent]
